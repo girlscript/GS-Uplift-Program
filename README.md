@@ -1,0 +1,2 @@
+# Uplift-Program
+This new global project aims at helping everyone looking for opportunities to leverage their knowledge, skills, and potential to higher levels. If you're a student wanting to learn tech stacks like HTML, CSS, JavaScript, Angular, React, Node Js, Artificial Intelligence, Machine Learning and many more, if you are the one with enough knowledge of skills mentioned above then this program is for all of you!
