@@ -1,0 +1,487 @@
+{
+	"ProjectData":[
+		{
+        "projectId": "HTML01",
+        "projectName": "WeTrack - Keep your goals on track",
+        "projectDescription":
+          "WeTrack - is a goal tracking application designed for people who want to keep their academic goals on track. With a primary feature of setting goals, and add ons such as motivational quote generation, a resource hub and tips and tricks. We plan to build this using HTML, CSS, Bootstrap and Vanilla Javascript, (maybe a bit of jQuery). We might also try and convert this into a PWA if time permits.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team---HTML01",
+        "repoName": "Team---HTML01",
+        "domainName": "Career",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+      {
+        "projectId": "AD01",
+        "projectName": "Career_Plus",
+        "projectDescription":
+          "Choosing a career after Intermediate in which you have to spend your whole life is a daunting task. We always try to do our best but there is always a fear of being wrong.There are also cases in which students realise leaning towards another stream after admission or one/two years of college.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/android-development/tree/Team-1-AD01",
+        "repoName": "Team---AD01",
+        "domainName": "Career",
+        "stack": "Android",
+        "tech": true
+      },
+      {
+        "projectId": "HTML04",
+        "projectName": "Career Choices and Education",
+        "projectDescription":
+          "The primary purpose for our Project is to create a Website for Students to get the required Career Paths in various fields which they can follow to excel in their future. We will also have a section where they can view recent Internship Opportunities, Learning Courses that they can undertake and Blogs which allows them to better understand the need of the future and more.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML04",
+        "repoName": "Team---HTML04",
+        "domainName": "Career",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+      {
+        "projectId": "CC04",
+        "projectName": "Career Management System",
+        "projectDescription":
+          "Building a career management system using file handling to handle the various skills inorder to reach your goals",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/C-C-plus-plus-programming/tree/Team-CC04",
+        "repoName": "Team-CC04",
+        "domainName": "Career",
+        "stack": "C/C++",
+        "tech": true
+      },
+
+      {
+        "projectId": "CC01",
+        "projectName": "University Management System",
+        "projectDescription":
+          "The University management system project maintains the list of affiliated colleges and their different streams. It also maintains the examination and the result department with a proper menu system. It maintains the details of the professors and other staff as well.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/C-C-plus-plus-programming/tree/Team-CC01",
+        "repoName": "Team-CC01",
+        "domainName": "Education",
+        "stack": "C/C++",
+        "tech": true
+      },
+      {
+        "projectId": "CC06",
+        "projectName": "Student Details Management System",
+        "projectDescription": "",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/C-C-plus-plus-programming/tree/Team-CC06",
+        "repoName": "Team-CC06",
+        "domainName": "Education",
+        "stack": "C/C++",
+        "tech": true
+      },
+      {
+        "projectId": "HTML08",
+        "projectName": "Resume Builder",
+        "projectDescription": "A resume builder software.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML08",
+        "repoName": "Team---HTML08",
+        "domainName": "Education",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+      {
+        "projectId": "R2",
+        "projectName": "Educator - Your modern age mentor",
+        "projectDescription":
+          "An online learning portal for Mobile and Desktop as a web-app.",
+        "gitLink": "https://github.com/The-Uplift-Project/react/tree/Team-R2",
+        "repoName": "Team-R2",
+        "domainName": "Education",
+        "stack": "React",
+        "tech": true
+      },
+      {
+        "projectId": "AD04",
+        "projectName": "Algo_Expert",
+        "projectDescription":
+          "An Education app where the application stores all kinds of algorithms.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/android-development/tree/Team4-AD04",
+        "repoName": "Team4-AD04",
+        "domainName": "Education",
+        "stack": "Android",
+        "tech": true
+      },
+      {
+        "projectId": "JV03",
+        "projectName": "Education",
+        "projectDescription": "University MAnagement System",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/java-programming/tree/Team-JV03",
+        "repoName": "Team-JV03",
+        "domainName": "Education",
+        "stack": "Java",
+        "tech": true
+      },
+      {
+        "projectId": "NJ1",
+        "projectName": "Education",
+        "projectDescription":
+          "Provide a Platform for the students and Teachers where the Doubts of students can be Solved by Teachers or any other Students. It Will be helpful for the aspirants.",
+        "gitLink": "https://github.com/The-Uplift-Project/nodejs/tree/Team-NJ1",
+        "repoName": "Team-NJ1",
+        "domainName": "Education",
+        "stack": "Node Js",
+        "tech": true
+      },
+      {
+        "projectId": "NJ2",
+        "projectName": "Education",
+        "projectDescription":
+          "The project will be based on the education domain which tends to provide free and easy access to anyone present anywhere in the world.",
+        "gitLink": "https://github.com/The-Uplift-Project/nodejs/tree/Team-NJ2",
+        "repoName": "Team-NJ2",
+        "domainName": "Education",
+        "stack": "Node Js",
+        "tech": true
+      },
+      {
+        "projectId": "NJ3",
+        "projectName": "Submission Evaluator",
+        "projectDescription":
+          "The project aims to provide an online platform to enable individuals or institutions to create tests and evaluate submissions",
+        "gitLink": "https://github.com/The-Uplift-Project/nodejs/tree/Team-NJ3",
+        "repoName": "Team-NJ3",
+        "domainName": "Education",
+        "stack": "Node Js",
+        "tech": true
+      },
+      {
+        "projectId": "PY1",
+        "projectName": "Animated Visualization of Data Structures and Algorithms",
+        "projectDescription":
+          "Our idea is to write a python script that would visualize various Algorithms and Data Structures, like tree formation, reversing a linked list, finding a single source shortest path, and many more using animation. The key idea here is to convert what we learn in theory to an animated visualization.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-PY1",
+        "repoName": "Team-PY1",
+        "domainName": "Education",
+        "stack": "Python",
+        "tech": true
+      },
+      {
+        "projectId": "AI03",
+        "projectName": "Quora Insincere Question Classification",
+        "projectDescription": "",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI03",
+        "repoName": "Team-AI03",
+        "domainName": "Education",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "HTML03",
+        "projectName": "Women Safety",
+        "projectDescription":
+          "We have thus decided to incorporate an element of this in our project as well. With an aim to contribute towards ending the stigma of periods we have decided to build a website to promote and encourage menstrual health and hygiene. ",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML03",
+        "repoName": "Team-HTML03",
+        "domainName": "People/Employee Welfare and Security",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+      {
+        "projectId": "FL01",
+        "projectName": "Women Safety",
+        "projectDescription":
+          "This project aims to ensure the safety of women worldwide. This project will aim to create a gender inclusive society by adding some features.",
+        "gitLink": "https://github.com/The-Uplift-Project/flutter/tree/Team-FL01",
+        "repoName": "Team-FL01",
+        "domainName": "People/Employee Welfare and Security",
+        "stack": "Flutter",
+        "tech": true
+      },
+      {
+        "projectId": "OS3",
+        "projectName": "Nostalgify",
+        "projectDescription":
+          "Human beings are social animals and there are points in life when we look back on our journey to reflect and connect with classmates. Many universities in the world have a listing of the classes of various years, like class of 20xx but not all institutions(tutors, dance classes, creative arts institutes, schools) have the "tech"nical knowledge to set this up and keep it up to date. Several institution websites lack utility features like graphing / profile updates etc which can help keep it better updated. This project would fix the above mentioned issues.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/open-source-development/tree/Team-OS3",
+        "repoName": "Team-OS3",
+        "domainName": "People/Employee Welfare and Security",
+        "stack": "OpenSource",
+        "tech": true
+      },
+      {
+        "projectId": "DSC01",
+        "projectName": "Credit Card Fraud Detection",
+        "projectDescription": "Analyze credit card fraud detection",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/data-science/tree/Team-DSC01",
+        "repoName": "Team-DSC01",
+        "domainName": "People/Employee Welfare and Security",
+        "stack": "Data Science",
+        "tech": true
+      },
+      {
+        "projectId": "PY6",
+        "projectName": "Message Encoder Decoder GUI Application",
+        "projectDescription": "Online hacking attacks are increasing day by day we need to secured application that should have our own algorithmic implementation to convert the plain text into the ciphertext and ciphertext into plain text using encryption and decryption "tech"niques.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/data-science/tree/Team-PY6",
+        "repoName": "Team-PY6",
+        "domainName": "People/Employee Welfare and Security",
+        "stack": "Python",
+        "tech": true
+      },
+
+      {
+        "projectId": "HTML06",
+        "projectName": "Marketing",
+        "projectDescription":
+          "We are creating a landing page for a fashion store with a built in IBM Watson Chat-Bot.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML06",
+        "repoName": "Team-HTML06",
+        "domainName": "Marketing",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+
+      {
+        "projectId": "HTML07",
+        "projectName": "HomeMade",
+        "projectDescription":
+          "HomeMade is an e-commerce website focused on handmade and vintage items and craft supplies. It connects small scale handmade sellers to the customers in town.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML07",
+        "repoName": "Team-HTML07",
+        "domainName": "Marketing",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+      {
+        "projectId": "HTML10",
+        "projectName": "PlayIt",
+        "projectDescription":
+          "PlayIt is a music website similar to apps like Spotify, Wynk. PlayIt user will be able to play and download any song out of a huge collection of songs.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/html-css-js/tree/Team-HTML10",
+        "repoName": "Team-HTML10",
+        "domainName": "Marketing",
+        "stack": "HTML, CSS, JS",
+        "tech": true
+      },
+
+      {
+        "projectId": "AD02",
+        "projectName": "StayHealthy",
+        "projectDescription":
+          "With our busy lives, we somehow end up giving health a less priority. We fail to keep our reports, our health history organized. We forget to track the most important parameters related to health like our weight, BMI, Blood pressure and many more.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/android-development/tree/Team2-AD02",
+        "repoName": "Team2-AD02",
+        "domainName": "Healthcare",
+        "stack": "Android",
+        "tech": true
+      },
+      {
+        "projectId": "AD03",
+        "projectName": "WEATHER FORECASTING APP",
+        "projectDescription":
+          "Weather forecasting app is an android application created using Kotlin fundamentals and advanced concepts. This application shows the current weather of a place.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/android-development/tree/Team3-AD03",
+        "repoName": "Team3-AD03",
+        "domainName": "Healthcare",
+        "stack": "Android",
+        "tech": true
+      },
+      {
+        "projectId": "AI11",
+        "projectName": "Computer Vision for the visually impaired",
+        "projectDescription":
+          "The project would help visually impaired people to interact with their enviornment. It is based on computer vision. The visually impaired person would be equipped with a system having a camera which would be used forvarious purposes like obstruction detection, recognize signs, test read-aloud and face-massk detection.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI11",
+        "repoName": "Team-AI11",
+        "domainName": "Healthcare",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "FL03",
+        "projectName": "CleanUp",
+        "projectDescription": "An Waste Management Application.",
+        "gitLink": "https://github.com/The-Uplift-Project/flutter/tree/Team-FL03",
+        "repoName": "Team-FL03",
+        "domainName": "Rural development/management",
+        "stack": "Flutter",
+        "tech": true
+      },
+      {
+        "projectId": "AI06",
+        "projectName": "Classification of Trash for Recyclability Status",
+        "projectDescription":
+          "A computer vision approach to classifying garbage into recycling categories could be an efficient way to process waste. The objective of this project is to take images of a single piece of recycling or garbage and classify it into six classes consisting of glass, paper, metal, plastic, cardboard, and trash. We will create a dataset that contains around 400-500 images for each class. We plan to release this dataset for the public. Some of the models to be used are support vector machines (SVM) with scale-invariant feature transform (SIFT) features and a convolutional neural network (CNN).This model can be wrapped in an app for better utility.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI06",
+        "repoName": "Team-AI06",
+        "domainName": "Rural development/management",
+        "stack": "AI & ML",
+        "tech": true
+      },
+      {
+        "projectId": "CC03",
+        "projectName": "HEALTHCARE MANAGEMENT SYSTEM FOR HOSPITAL STAFF/NURSES",
+        "projectDescription":
+          "A hospital management system is an information system that manages the aspects of a hospital. This may include the administrative, financial, and medical processing.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/C-C-plus-plus-programming/tree/Team-CC03",
+        "repoName": "Team-CC03",
+        "domainName": "Rural development/management",
+        "stack": "C/C++",
+        "tech": true
+      },
+      {
+        "projectId": "AI06",
+        "projectName": "Classification of Trash for Recyclability Status",
+        "projectDescription":
+          "A computer vision approach to classifying garbage into recycling categories could be an efficient way to process waste. The objective of this project is to take images of a single piece of recycling or garbage and classify it into six classes consisting of glass, paper, metal, plastic, cardboard, and trash. We will create a dataset that contains around 400-500 images for each class. We plan to release this dataset for the public. Some of the models to be used are support vector machines (SVM) with scale-invariant feature transform (SIFT) features and a convolutional neural network (CNN).This model can be wrapped in an app for better utility.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI06",
+        "repoName": "Team-AI06",
+        "domainName": "Rural development/management",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "JV02",
+        "projectName": "E Commerce",
+        "projectDescription": "Grocery Delivery Service",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/java-programming/tree/Team-JV02",
+        "repoName": "Team-JV02",
+        "domainName": "E-Commerce",
+        "stack": "Java",
+        "tech": true
+      },
+      {
+        "projectId": "FL04",
+        "projectName": "Tradewinds",
+        "projectDescription": "An e-commerce App",
+        "gitLink": "https://github.com/The-Uplift-Project/flutter/tree/Team-FL04",
+        "repoName": "Team-FL04",
+        "domainName": "E-Commerce",
+        "stack": "Flutter",
+        "tech": true
+      },
+      {
+        "projectId": "NJ5",
+        "projectName": "TradeByte",
+        "projectDescription": "It is a small stock trading simulation game.",
+        "gitLink": "https://github.com/The-Uplift-Project/nodejs/tree/Team-NJ5",
+        "repoName": "Team-NJ5",
+        "domainName": "E-Commerce",
+        "stack": "Node Js",
+        "tech": true
+      },
+
+      {
+        "projectId": "PHP1",
+        "projectName": "Covid Assistance",
+        "projectDescription":
+          "Covid Assistance is a website which is made keeping in mind the adverse circumstances that countrymen are facing in this Global Pandemic.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/php-programming/blob/Team-PHP1/",
+        "repoName": "Team-PHP1",
+        "domainName": "COVID19",
+        "stack": "PHP",
+        "tech": true
+      },
+      {
+        "projectId": "AI15",
+        "projectName": "COVID-19 Detection",
+        "projectDescription":
+          "Web App in which user can select his/her symptoms plus can upload the image of his/her X-ray and on that basis our app will inform whether the user is infected or not and what is his/her condition ( Mild/Serious/Critical )",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI15",
+        "repoName": "Team-AI15",
+        "domainName": "COVID19",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "AI14",
+        "projectName": "Trip Planner",
+        "projectDescription": "A chatbot which will help you plan a trip.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI14",
+        "repoName": "Team-AI14",
+        "domainName": "Travel, Transport and hospitality",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "AI08",
+        "projectName": "fake news classifier",
+        "projectDescription": "",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI08",
+        "repoName": "Team-AI08",
+        "domainName": "Media Services",
+        "stack": "AI & ML",
+        "tech": true
+      },
+
+      {
+        "projectId": "AI07",
+        "projectName": "Face Detection",
+        "projectDescription":
+          "We are working towards utilizing deep learning concepts to develop a robust face recognition system that can work on images/videos. Once the network recognises face, we aim towards implementing facial expression recognition, mask detection (whether a person is wearing a mask or not) and hand gesture recognition systems. ",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI07",
+        "repoName": "Team-AI07",
+        "domainName": "Miscellaneous",
+        "stack": "AI & ML",
+        "tech": true
+      },
+      {
+        "projectId": "AI12",
+        "projectName": "Hand Gesture and Face Detection",
+        "projectDescription":
+          "We are working on Two Things in parallel one is based on CV and the other is based on NLP which are implemented together by the end of these projects which in-turn forms an end-to-end Deep Learning Based Project",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI12",
+        "repoName": "Team-AI12",
+        "domainName": "Miscellaneous",
+        "stack": "AI & ML",
+        "tech": true
+      },
+      {
+        "projectId": "AI01",
+        "projectName": "AI Impersonator",
+        "projectDescription":
+          "AI Impersonator is a program that allows anyone to impersonate a person of their choice as an avatar and join a Zoom/Slack/Google Meet call among other video conferencing apps. It uses the First Order Motion Model for Image Animation by Aliaksandr Siarohin et. al. The avatars are photorealistic making it impossible to differentiate.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/python-programming/tree/Team-AI01",
+        "repoName": "Team-AI01",
+        "domainName": "Miscellaneous",
+        "stack": "AI & ML",
+        "tech": true
+      },
+      {
+        "projectId": "CC02",
+        "projectName": "OpenCV Project",
+        "projectDescription":
+          "We are working towards developing an app using qt5, opencv and c++. This app will have a functionality to process a live image/ video and create effects like pencil sketching, cartoonizing and other computational imagery on the image/frame.",
+        "gitLink":
+          "https://github.com/The-Uplift-Project/C-C-plus-plus-programming/tree/Team-CC02",
+        "repoName": "Team-CC02",
+        "domainName": "Miscellaneous",
+        "stack": "C/C++",
+        "tech": true
+      },
+	]
+}
