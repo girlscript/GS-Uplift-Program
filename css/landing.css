@@ -419,6 +419,9 @@ body {
   #hero .hero-img img {
     width: 70%;
   }
+  .card-price{
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -544,4 +547,7 @@ body {
 
 .place{
   color: rgba(255, 255, 255, 0.82);
+}
+.register-card{
+  word-wrap: normal;
 }
