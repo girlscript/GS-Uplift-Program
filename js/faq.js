@@ -1,3 +1,4 @@
+let btn0 = document.getElementsByClassName("btn0")
 let btn1 = document.getElementsByClassName("btn1");
 let btn2 = document.getElementsByClassName("btn2");
 let btn3 = document.getElementsByClassName("btn3");
@@ -14,6 +15,7 @@ let btn13 = document.getElementsByClassName("btn13");
 let btn14 = document.getElementsByClassName("btn14");
 let btn15 = document.getElementsByClassName("btn15");
 
+let show0 = document.getElementById("collapseZero");
 let show1 = document.getElementById("collapseOne");
 let show2 = document.getElementById("collapseTwo");
 let show3 = document.getElementById("collapseThree");
@@ -45,6 +47,14 @@ let show15 = document.getElementById("collapseFifteen");
 // console.log(show13);
 // console.log(show14);
 // console.log(show15);
+
+btn0[0].onclick = function (event) {
+  if (show0.classList.contains("show")) {
+    btn0[0].classList.remove("btn-link-clicked");
+  } else {
+    btn0[0].classList.add("btn-link-clicked");
+  }
+};
 
 btn1[0].onclick = function (event) {
   if (show1.classList.contains("show")) {
