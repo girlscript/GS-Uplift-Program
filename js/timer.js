@@ -1,5 +1,5 @@
 const year = new Date().getFullYear();
-const fourthOfJuly = new Date(year, 5, 4).getTime();
+const fourthOfJuly = new Date(year, 5, 5).getTime();
 const fourthOfJulyNextYear = new Date(year + 1, 5, 4).getTime();
 const month = new Date().getMonth();
 
