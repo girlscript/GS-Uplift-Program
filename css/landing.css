@@ -103,6 +103,16 @@ body {
   border-radius: 70px;
 }
 
+/* Sketch */
+.sketh {
+  /* display: flex; */
+  text-align: center;
+}
+.sponsor-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .sponsor-image {
   width: 360px;
   height: 115px;
@@ -559,4 +569,7 @@ body {
   margin-left: 10px;
   padding: 0;
   border-radius: 50%;
+}
+.sticker-mule {
+  width: 360px;
 }
