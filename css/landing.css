@@ -108,9 +108,6 @@ body {
   /* display: flex; */
   text-align: center;
 }
-.streamyard {
-  margin-left: 100px;
-}
 
 .sponsor-div {
   display: block;
@@ -530,9 +527,6 @@ body {
     line-height: 3.5rem;
     /* or 130% */
     color: #30235b;
-  }
-  .streamyard {
-    padding-left: 0;
   }
 }
 
