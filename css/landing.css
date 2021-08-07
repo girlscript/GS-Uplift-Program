@@ -368,6 +368,7 @@ body {
   border-radius: 10px;
   border: none;
   text-decoration: none;
+
 }
 
 #hero .btn-get-started:hover {
@@ -578,4 +579,19 @@ body {
 }
 .sticker-mule {
   width: 360px;
+}
+
+.hack-register-btn {
+  background: #f58611;
+  box-shadow: 0 4px 30px 0 rgb(245, 56, 56, 0.3),
+    0 6px 20px 0 rgb(245, 56, 56, 0.25);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  letter-spacing: .2rem;
+}
+
+.hack-register-btn:hover{
+  background: #d66f00;
+  text-decoration: none;
 }
