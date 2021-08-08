@@ -36,19 +36,20 @@
             // window.sib.custom_offline_message = 'We are currently offline. In order to answer you, please indicate your email in your messages.';
             window.sendinblue = {}; for (var j = ['track', 'identify', 'trackLink', 'page'], i = 0; i < j.length; i++) { (function (k) { window.sendinblue[k] = function () { var arg = Array.prototype.slice.call(arguments); (window.sib[k] || function () { var t = {}; t[k] = arg; window.sib.equeue.push(t); })(arg[0], arg[1], arg[2]); }; })(j[i]); } var n = document.createElement("script"), i = document.getElementsByTagName("script")[0]; n.type = "text/javascript", n.id = "sendinblue-js", n.async = !0, n.src = "https://sibautomation.com/sa.js?key=" + window.sib.client_key, i.parentNode.insertBefore(n, i), window.sendinblue.page();
         })();
-        
+
     </script>
 </head>
 
 <body>
 
     <!-- Popup Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-center font-weight-bold" id="exampleModalLongTitle">Register Now for Hack-O-Uplift</h5>
+                    <h5 class="modal-title text-center font-weight-bold" id="exampleModalLongTitle">Register Now for
+                        Hack-O-Uplift</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -57,7 +58,8 @@
                     <img src="assets/hack.jpg" class="img-fluid animated p-2" alt="">
                 </div>
                 <div class="modal-footer">
-                    <a type="button" class="btn-lg text-center text-white hack-register-btn w-100" href="./hack-o-uplift.html">REGISTER NOW</a>
+                    <a type="button" class="btn-lg text-center text-white hack-register-btn w-100"
+                        href="./hack-o-uplift.html">REGISTER NOW</a>
                 </div>
             </div>
         </div>
@@ -1170,7 +1172,6 @@
         </div>
     </div>
     <!--/row-->
-    </div>
 
 
     <!-- New Sponsors Section -->
