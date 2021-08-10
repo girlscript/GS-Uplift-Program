@@ -1,85 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/logo.png" type="image/x-icon" />
     <title>Hack-O-Uplift | The Uplift Project</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-    <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./css/faq.css" />
 
     <link href="./css/hack.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- NAVBAR START -->
     <div class="bs-example">
-        <nav class="fixed-top navbar py-2 navbar-expand-md">
-            <a href="index.html" class="navbar-brand"><img style="max-height: 80px" src="assets/logowhite.png"
-                    alt="uplift_logo.png" class="img-fluid" /></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"><i
-                        class="text-white align-items-center text-center fas fa-bars"></i></span>
-            </button>
+      <nav class="fixed-top navbar py-2 navbar-expand-md">
+        <a href="index.html" class="navbar-brand"
+          ><img
+            style="max-height: 80px"
+            src="assets/logowhite.png"
+            alt="uplift_logo.png"
+            class="img-fluid"
+        /></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"
+            ><i
+              class="text-white align-items-center text-center fas fa-bars"
+            ></i
+          ></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="#project-themes" class="nav-item px-lg-4 nav-link">Project Themes</a>
-                    <a href="#prizes" class="nav-item px-lg-4 nav-link">Prizes</a>
-                    <a href="#timeline" class="nav-item px-lg-4 nav-link">Timeline</a>
-                    <a href="#faq" class="nav-item px-lg-4 nav-link">FAQ's</a>
-                    <a href="#sponsors" class="nav-item px-lg-4 nav-link">Sponsors</a>
-                </div>
-                <div class="navbar-nav ml-auto">
-                    <!-- <a href="#" style="border-radius: 26px"
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ml-auto">
+            <a href="#project-themes" class="nav-item px-lg-4 nav-link"
+              >Project Themes</a
+            >
+            <a href="#prizes" class="nav-item px-lg-4 nav-link">Prizes</a>
+            <a href="#timeline" class="nav-item px-lg-4 nav-link">Timeline</a>
+            <a href="#faq" class="nav-item px-lg-4 nav-link">FAQ's</a>
+            <a href="#sponsors" class="nav-item px-lg-4 nav-link">Sponsors</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <!-- <a href="#" style="border-radius: 26px"
                         class="nav-item register-btn disabled btn text-white px-5 nav-link"><span><img
                                 style="width: 15px;" src="./assets/devfolio-white2x (1).png"></span>
                                 <span> Coming Soon</span></a> -->
-                    <div class="apply-button" data-hackathon-slug="uplift" data-button-theme="light"
-                        style="height: 44px; width: 312px"></div>
-                </div>
-            </div>
-        </nav>
+            <div
+              class="apply-button"
+              data-hackathon-slug="uplift"
+              data-button-theme="light"
+              style="height: 44px; width: 312px"
+            ></div>
+          </div>
+        </div>
+      </nav>
     </div>
     <!-- NAVBAR END -->
 
 
+    <!-- STICKY BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Join Hack-O-Uplift Discord">
+      <i class="fab fa-2x fa-discord"></i>
+    </button>
+
+    <!-- STICKY BUTTON ENDS -->
 
     <!-- ======= Hero Section ======= -->
 
+    <section
+      id="hero"
+      class="d-flex align-items-center justify-content-between mt-5 pt-5"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="
+              col-lg-6 col-sm-12
+              d-flex
+              flex-column
+              justify-content-center
+              pt-lg-0
+              order-2 order-lg-1
+            "
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h1 class="hack-title display-1 font-weight-bold">Hack-O-Uplift</h1>
 
-    <section id="hero" class="d-flex align-items-center justify-content-between mt-5 pt-5">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-lg-6 col-sm-12  d-flex  flex-column justify-content-center pt-lg-0 order-2 order-lg-1"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <h1 class="hack-title display-1 font-weight-bold">
-                        Hack-O-Uplift
-                    </h1>
-
-                    <h3 class="text-justify my-3">Are you interested in uplifting yourself by working on a project? Do
-                        you have thought or idea that could possibly bring a change or help people in any ways?
-                        Hack-O-Uplift is the first-ever community hackathon of The Uplift Project.
-                        Its an open hackathon, whether you are a participant at uplift or not, you just need to have an
-                        idea and a will to work on it.
-                        Hack-O-Uplift will provide you opportunity where you can invest your 36 Hrs in working with your
-                        team to plan, build, technique it & bring your project to life.<br /><br />
-                        <b>Register yourself and your team and get onboard.</b><br /><br />
-                        <i>NOTE: You have to be in a team of minimum 2 & maximum 4 members.</i>
-                    </h3><br><br>
-                    <!-- <h3 class="text-justify">
+            <h3 class="text-justify my-3">
+              Are you interested in uplifting yourself by working on a project?
+              Do you have thought or idea that could possibly bring a change or
+              help people in any ways? Hack-O-Uplift is the first-ever community
+              hackathon of The Uplift Project. Its an open hackathon, whether
+              you are a participant at uplift or not, you just need to have an
+              idea and a will to work on it. Hack-O-Uplift will provide you
+              opportunity where you can invest your 36 Hrs in working with your
+              team to plan, build, technique it & bring your project to life.<br /><br />
+              <b>Register yourself and your team and get onboard.</b
+              ><br /><br />
+              <i
+                >NOTE: You have to be in a team of minimum 2 & maximum 4
+                members.</i
+              >
+            </h3>
+            <br /><br />
+            <!-- <h3 class="text-justify">
                         As we are an organization with an aim of bringing equality, empowerment and excitement to gain
                         more knowledge in the technical field,we are expecting more women participants to overcome the
                         fear in every meetup, workshops, and conferences ,hence helping them to be part of this
@@ -89,47 +139,68 @@
                         This time GirlScript Foundation has come up with a faboulous learning opportunity for all to
                         learn more and grow with everyone and it’s none other than the “The Uplift Project”
                     </h3> -->
-                    <div class="d-flex date-div py-4 justify-content-between">
-                        <div>
-                            <h3 style="color: #C4C4C4;">START</h3>
-                            <h3 class="font-weight-bold mt-n5 mb-n1">08 August, 2021</h3>
-                        </div>
-                        <div>
-                            <h3 style="color: #C4C4C4;">END</h3>
-                            <h3 class="font-weight-bold mt-n5 mb-n1">30 August, 2021</h3>
-                        </div>
-                    </div><br><br>
-                    <!-- <a href="#" style="border-radius: 26px; width: fit-content;"
+            <div class="d-flex date-div py-4 justify-content-between">
+              <div>
+                <h3 style="color: #c4c4c4">START</h3>
+                <h3 class="font-weight-bold mt-n5 mb-n1">08 August, 2021</h3>
+              </div>
+              <div>
+                <h3 style="color: #c4c4c4">END</h3>
+                <h3 class="font-weight-bold mt-n5 mb-n1">30 August, 2021</h3>
+              </div>
+            </div>
+            <br /><br />
+            <!-- <a href="#" style="border-radius: 26px; width: fit-content;"
                         class="btn-lg disabled register-btn btn px-5 text-white"><span><img style="width: 20px;"
                                 src="./assets/devfolio-white2x (1).png"></span><span> Coming Soon</span></a> -->
-                    <div class="apply-button" data-hackathon-slug="uplift" data-button-theme="light"
-                        style="height: 44px; width: 312px"></div>
-
+            <div class="d-flex align-items-center">
+              <div class="row">
+                <div class="py-2 col-lg-6 col-md-12 col-sm-12">
+                  <a
+                    href="https://discord.gg/UjeBq4AUYu"
+                    target="_blank"
+                    style="width: fit-content"
+                    class="btn-lg register-btn btn px-5 text-white"
+                    ><i class="fab fa-discord"></i> Join Discord Server</a
+                  >
                 </div>
-                <div class="col-lg-6 col-sm-12 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="assets/hack.svg" class="img-fluid animated p-2" alt="">
+                <div class="py-2 col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="apply-button"
+                    data-hackathon-slug="uplift"
+                    data-button-theme="light"
+                    style="height: 44px; width: 312px"
+                  ></div>
                 </div>
+              </div>
             </div>
-
-
+          </div>
+          <div
+            class="col-lg-6 col-sm-12 order-1 order-lg-2 hero-img"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img src="assets/hack.svg" class="img-fluid animated p-2" alt="" />
+          </div>
         </div>
-        </div>
-    </section><!-- End Hero -->
+      </div>
+    </section>
+    <!-- End Hero -->
 
     <!-- Timer start -->
     <div class="container-fluid timer py-2">
-        <h2 class="text-center text-white font-weight-bold"><span>Event starts In</span><br /><span id="time"></span>
-        </h2>
+      <h2 class="text-center text-white font-weight-bold">
+        <span>Event starts In</span><br /><span id="time"></span>
+      </h2>
     </div>
     <!-- Timer ends -->
 
     <!-- Project Themes start -->
     <div id="project-themes" class="container my-5 py-5">
-        <h1 class="text-center text-white my-5">Project Themes</h1>
-        <h1 class="text-center coming-soon my-5">COMING SOON</h1>
+      <h1 class="text-center text-white my-5">Project Themes</h1>
+      <h1 class="text-center coming-soon my-5">COMING SOON</h1>
 
-
-        <!-- <div class="row d-flex justify-content-center">
+      <!-- <div class="row d-flex justify-content-center">
             <div class="col-lg-4 d-flex justify-content-center col-md-4 col-sm-12">
                 <div class="card theme-card" style="width: 18rem;">
                     <div class="card-body">
@@ -166,12 +237,10 @@
 
     <!-- Prizes start -->
     <div id="prizes" class="container my-5 py-5">
-        <h1 class="text-center text-white my-5">Prizes</h1>
-        <h1 class="text-center coming-soon my-5">COMING SOON</h1>
+      <h1 class="text-center text-white my-5">Prizes</h1>
+      <h1 class="text-center coming-soon my-5">COMING SOON</h1>
 
-
-
-        <!-- <div class="row d-flex justify-content-center">
+      <!-- <div class="row d-flex justify-content-center">
             <div class="col-lg-4 d-flex justify-content-center col-md-4 col-sm-12">
                 <div class="card theme-card" style="width: 18rem;">
                     <div class="card-body">
@@ -209,285 +278,433 @@
     </div>
     <!-- Prizes ends -->
 
-
     <!-- Timeline starts -->
     <div id="timeline" class="container my-5 py-5">
-        <h1 class="text-center text-white my-5">Timeline</h1>
+      <h1 class="text-center text-white my-5">Timeline</h1>
 
-        <ul class="timeline mb-5">
-            <li>
-                <div class="direction-r box">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">&nbsp;&nbsp;<i class="fas text-white fa-2x fa-bullhorn"></i></span>
-                        <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 ml-0 text-white">Hackathon announcement<br />05th August 2021</div>
-                </div>
-            </li>
-            <li>
-                <div class="direction-l box">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag"><i
-                                class="fas text-white fa-2x fa-paper-plane fa-clipboard"></i>&nbsp;&nbsp;</span>
-                        <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 mr-0 text-white">
-                        Registration starts<br />08th August 2021
-                    </div>
-                </div>
-            </li>
-            <!-- Item 1 -->
-            <li>
-                <div class="direction-r box">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">&nbsp;&nbsp;<i class="fas text-white fa-2x fa-calendar-alt"></i></span>
-                        <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 ml-0 text-white">Registration ends<br />30th August 2021</div>
-                </div>
-            </li>
+      <ul class="timeline mb-5">
+        <li>
+          <div class="direction-r box">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                >&nbsp;&nbsp;<i class="fas text-white fa-2x fa-bullhorn"></i
+              ></span>
+              <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 ml-0 text-white">
+              Hackathon announcement<br />05th August 2021
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="direction-l box">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                ><i class="fas text-white fa-2x fa-paper-plane fa-clipboard"></i
+                >&nbsp;&nbsp;</span
+              >
+              <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 mr-0 text-white">
+              Registration starts<br />08th August 2021
+            </div>
+          </div>
+        </li>
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r box">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                >&nbsp;&nbsp;<i class="fas text-white fa-2x fa-calendar-alt"></i
+              ></span>
+              <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 ml-0 text-white">
+              Registration ends<br />30th August 2021
+            </div>
+          </div>
+        </li>
 
-            <!-- Item 2 -->
-            <li>
-                <div class="direction-l">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag"><i class="fas text-white fa-2x fa-rocket"></i>&nbsp;&nbsp;</span>
-                        <!--         <span class="time-wrapper"><span class="time">Dec 2014</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 mr-0 text-white">
-                        Theme/Problem statement<br />to be announced<br />30th Aug 2021
-                    </div>
-                </div>
-            </li>
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                ><i class="fas text-white fa-2x fa-rocket"></i
+                >&nbsp;&nbsp;</span
+              >
+              <!--         <span class="time-wrapper"><span class="time">Dec 2014</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 mr-0 text-white">
+              Theme/Problem statement<br />to be announced<br />30th Aug 2021
+            </div>
+          </div>
+        </li>
 
-            <!-- Item 3 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">&nbsp;&nbsp;<i class="fas text-white fa-2x fa-laptop-code"></i></span>
-                        <!--         <span class="time-wrapper"><span class="time">July 2014</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 ml-0 text-white">
-                        Sawo labs API integration session<br />29th Aug 2021
-                    </div>
-                </div>
-            </li>
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                >&nbsp;&nbsp;<i class="fas text-white fa-2x fa-laptop-code"></i
+              ></span>
+              <!--         <span class="time-wrapper"><span class="time">July 2014</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 ml-0 text-white">
+              Sawo labs API integration session<br />29th Aug 2021
+            </div>
+          </div>
+        </li>
 
-            <li>
-                <div class="direction-l">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag"><i class="fas text-white fa-2x fa-code-branch"></i>&nbsp;&nbsp;</span>
-                        <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 mr-0 text-white">
-                        Hackathon starts<br />3rd Sept, 2021<br />6:00 p.m.
-                    </div>
-                </div>
-            </li>
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                ><i class="fas text-white fa-2x fa-code-branch"></i
+                >&nbsp;&nbsp;</span
+              >
+              <!--         <span class="time-wrapper"><span class="time">Feb 2015</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 mr-0 text-white">
+              Hackathon starts<br />3rd Sept, 2021<br />6:00 p.m.
+            </div>
+          </div>
+        </li>
 
-            <!-- Item 2 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">&nbsp;&nbsp;<i class="fas text-white fa-2x fa-hourglass-half"></i></span>
-                        <!--         <span class="time-wrapper"><span class="time">Dec 2014</span></span> -->
-                    </div>
-                    <div class="desc mt-0 pt-1 ml-0 text-white">
-                        Hackathon ends<br />5th Sept, 2021<br />6:00 a.m.
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag"
+                >&nbsp;&nbsp;<i
+                  class="fas text-white fa-2x fa-hourglass-half"
+                ></i
+              ></span>
+              <!--         <span class="time-wrapper"><span class="time">Dec 2014</span></span> -->
+            </div>
+            <div class="desc mt-0 pt-1 ml-0 text-white">
+              Hackathon ends<br />5th Sept, 2021<br />6:00 a.m.
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
     <!-- Timeline ends -->
 
     <!-- FAQ's start -->
 
     <div id="faq" class="container-fluid my-5 py-5">
-        <h1 class="text-center text-white my-5">Frequently Asked Questions</h1>
+      <h1 class="text-center text-white my-5">Frequently Asked Questions</h1>
 
-        <div class="row d-flex justify-content-center font-weight-bold">
-            <div class="col-10 d-flex justify-content-center">
-                <div class="accordion d-flex justify-content-center" id="faqExample">
-                    <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center font-weight-bold">
+        <div class="col-10 d-flex justify-content-center">
+          <div class="accordion d-flex justify-content-center" id="faqExample">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingZero"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> WHAT IS A
+                      HACKATHON?
+                      <button
+                        class="btn btn-link btn0 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseZero"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseZero"
+                    class="collapse bg-white"
+                    aria-labelledby="headingZero"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        A hackathon is an event, usually hosted by a tech
+                        company or organization, where programmers get together
+                        for a short period of time to collaborate on a project.
+                        The participants work rapidly and often work without
+                        sleep to achieve their task, as the events generally
+                        only last 24 hours or take place over a weekend.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5 faq">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingOne"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> HOW CAN WE
+                      REGISTER IN HACK-O-UPLIFT ?
+                      <button
+                        class="btn btn-link btn1 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
 
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingZero">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> WHAT IS A HACKATHON?
-                                        <button class="btn btn-link btn0 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseZero" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseZero" class="collapse bg-white" aria-labelledby="headingZero"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>A hackathon is an event, usually hosted by a tech company or organization,
-                                            where programmers get together for a short period of time to collaborate on
-                                            a project. The participants work rapidly and often work without sleep to
-                                            achieve their task, as the events generally only last 24 hours or take place
-                                            over a weekend.
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5 faq">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingOne">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> HOW CAN WE REGISTER IN HACK-O-UPLIFT ?
-                                        <button class="btn btn-link btn1 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-
-                                <div id="collapseOne" class="collapse bg-white" aria-labelledby="headingOne"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>You can register in Hack-O-Uplift via Devfolio. Simply click on the link "Apply with Devfolio'' provided on our website.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingTwo">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> I AM A BEGINNER. AM I ELIGIBLE TO PARTICIPATE?
-                                        <button class="btn btn-link btn2 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="collapse bg-white" aria-labelledby="headingTwo"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>Yes, this is open to all people and if you are a beginner it's the best way to start your hackathon journey and we would love to have your participation.
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> WHAT IS THE SIZE OF TEAM?
-                                        <button class="btn btn-link btn3 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="collapse bg-white" aria-labelledby="headingThree"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>It can be a minimum of 2 and a maximum of 4 members in a team. You cannot participate individually.
-                                        </h4>
-                                    </div>.</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> IS IT FREE OF COST?
-                                        <button class="btn btn-link btn4 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="collapse bg-white" aria-labelledby="headingFour"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>Yes, Hack-O-Uplift is absolutely free of cost to participate.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> WHO CAN PARTICIPATE?
-                                        <button class="btn btn-link btn5 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseFive" class="collapse bg-white" aria-labelledby="headingFive"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>Everyone can participate! We encourage anyone who is interested in learning more about Hackathons, programming, and the tech industry to join Hack-O-Uplift!</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> WHAT ARE THE PRIZES FOR WINNERS?
-                                        <button class="btn btn-link btn6 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseSix" class="collapse bg-white" aria-labelledby="headingSix"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>Prizes will be declared soon. Stay updated via social media platforms.
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card mb-5">
-                                <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
-                                    <h4 class="mb-0">
-                                        <i class="far fa-question-circle pr-2"></i> WHERE WILL IT BE HOSTED?
-                                        <button class="btn btn-link btn7 collapsed float-right" type="button"
-                                            data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven">
-                                            <i class="fas fa-angle-down fa-2x"></i>
-                                        </button>
-                                    </h4>
-                                </div>
-                                <div id="collapseSeven" class="collapse bg-white" aria-labelledby="headingSeven"
-                                    data-parent="#faqExample">
-                                    <div class="card-body text-primary bg-white">
-                                        <h4>Hack-O-Uplift will be hosted in the month of September 2021, completely online.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-6 mx-auto">
+                  <div
+                    id="collapseOne"
+                    class="collapse bg-white"
+                    aria-labelledby="headingOne"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        You can register in Hack-O-Uplift via Devfolio. Simply
+                        click on the link "Apply with Devfolio'' provided on our
+                        website.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingTwo"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> I AM A
+                      BEGINNER. AM I ELIGIBLE TO PARTICIPATE?
+                      <button
+                        class="btn btn-link btn2 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse bg-white"
+                    aria-labelledby="headingTwo"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        Yes, this is open to all people and if you are a
+                        beginner it's the best way to start your hackathon
+                        journey and we would love to have your participation.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingThree"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> WHAT IS THE
+                      SIZE OF TEAM?
+                      <button
+                        class="btn btn-link btn3 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse bg-white"
+                    aria-labelledby="headingThree"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        It can be a minimum of 2 and a maximum of 4 members in a
+                        team. You cannot participate individually.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingThree"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> IS IT FREE OF
+                      COST?
+                      <button
+                        class="btn btn-link btn4 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse bg-white"
+                    aria-labelledby="headingFour"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        Yes, Hack-O-Uplift is absolutely free of cost to
+                        participate.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingThree"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> WHO CAN
+                      PARTICIPATE?
+                      <button
+                        class="btn btn-link btn5 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseFive"
+                    class="collapse bg-white"
+                    aria-labelledby="headingFive"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        Everyone can participate! We encourage anyone who is
+                        interested in learning more about Hackathons,
+                        programming, and the tech industry to join
+                        Hack-O-Uplift!
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingThree"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> WHAT ARE THE
+                      PRIZES FOR WINNERS?
+                      <button
+                        class="btn btn-link btn6 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseSix"
+                    class="collapse bg-white"
+                    aria-labelledby="headingSix"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        Prizes will be declared soon. Stay updated via social
+                        media platforms.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mx-auto">
+                <div class="card mb-5">
+                  <div
+                    class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white"
+                    id="headingThree"
+                  >
+                    <h4 class="mb-0">
+                      <i class="far fa-question-circle pr-2"></i> WHERE WILL IT
+                      BE HOSTED?
+                      <button
+                        class="btn btn-link btn7 collapsed float-right"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="collapseSeven"
+                      >
+                        <i class="fas fa-angle-down fa-2x"></i>
+                      </button>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseSeven"
+                    class="collapse bg-white"
+                    aria-labelledby="headingSeven"
+                    data-parent="#faqExample"
+                  >
+                    <div class="card-body text-primary bg-white">
+                      <h4>
+                        Hack-O-Uplift will be hosted in the month of September
+                        2021, completely online.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-6 mx-auto">
                             <div class="card mb-5">
                                 <div class="card-header font-weight-bolde p-4 pl-5 pb-4 bg-white" id="headingThree">
                                     <h4 class="mb-0">
@@ -661,109 +878,152 @@
                                 </div>
                             </div>
                         </div> -->
-                    </div>
-                </div>
-
             </div>
-
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- FAQ's ends -->
 
     <!-- Sponsors Section start -->
     <div id="sponsors" class="container-fluid my-5 py-5">
-
-
-        <h1 style="font-size: 4rem;" class="text-center font-weight-bold text-white my-5">Thanks to Our Sponsors</h1>
-        <h1 style="color: #FFA400;" class="text-center font-weight-bold my-5">Our Platinum Sponsor</h1>
-        <div class="row pb-5 d-flex justify-content-center">
-            <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
-                <a class="d-block" href="https://devfolio.co/">
-                    <img src="./assets/sponsors/Devfolio_Logo-White 1.png" alt="Devfolio" class="img-fluid">
-                </a>
-            </div>
+      <h1
+        style="font-size: 4rem"
+        class="text-center font-weight-bold text-white my-5"
+      >
+        Thanks to Our Sponsors
+      </h1>
+      <h1 style="color: #ffa400" class="text-center font-weight-bold my-5">
+        Our Platinum Sponsor
+      </h1>
+      <div class="row pb-5 d-flex justify-content-center">
+        <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
+          <a class="d-block" href="https://devfolio.co/">
+            <img
+              src="./assets/sponsors/Devfolio_Logo-White 1.png"
+              alt="Devfolio"
+              class="img-fluid"
+            />
+          </a>
         </div>
+      </div>
 
-
-        <h1 style="color: #FFA400;" class="text-center font-weight-bold my-5">Our Gold Sponsor</h1>
-        <div class="row pb-5 d-flex justify-content-center">
-            <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
-                <a class="d-block" target="_blank" href="https://polygon.technology">
-                    <img src="./assets/sponsors/Polygon_Logo-White 1.png" alt="Devfolio" class="img-fluid">
-                </a>
-            </div>
-            <div class="text-center my-5 sponsor-col col-lg-4 col-md-4 col-sm-12">
-                <a class="d-block" target="_blank" href="https://tezos.com">
-                    <img src="./assets/sponsors/Tezos_Logo-White 1.png" alt="Devfolio" class="img-fluid">
-                </a>
-            </div>
-            <div class="text-center my-5 sponsor-col col-lg-4 col-md-4 col-sm-12">
-                <a class="d-block" target="_blank" href="https://celo.org/">
-                    <img src="./assets/sponsors/Celo Logo Color Reverse 1.png" alt="Devfolio" class="img-fluid">
-                </a>
-            </div>
+      <h1 style="color: #ffa400" class="text-center font-weight-bold my-5">
+        Our Gold Sponsor
+      </h1>
+      <div class="row pb-5 d-flex justify-content-center">
+        <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
+          <a class="d-block" target="_blank" href="https://polygon.technology">
+            <img
+              src="./assets/sponsors/Polygon_Logo-White 1.png"
+              alt="Devfolio"
+              class="img-fluid"
+            />
+          </a>
         </div>
-
-        <h1 style="color: #FFA400;" class="text-center font-weight-bold my-5">Authentication Partner</h1>
-        <div class="row pb-5 d-flex justify-content-center">
-            <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
-                <a class="d-block" target="_blank" href="https://sawolabs.com/">
-                    <img src="./assets//sponsors/SAWO_Labs.png" alt="Devfolio" class="img-fluid" style="height: 148px; width: 341px">
-                </a>
-            </div>
+        <div class="text-center my-5 sponsor-col col-lg-4 col-md-4 col-sm-12">
+          <a class="d-block" target="_blank" href="https://tezos.com">
+            <img
+              src="./assets/sponsors/Tezos_Logo-White 1.png"
+              alt="Devfolio"
+              class="img-fluid"
+            />
+          </a>
         </div>
+        <div class="text-center my-5 sponsor-col col-lg-4 col-md-4 col-sm-12">
+          <a class="d-block" target="_blank" href="https://celo.org/">
+            <img
+              src="./assets/sponsors/Celo Logo Color Reverse 1.png"
+              alt="Devfolio"
+              class="img-fluid"
+            />
+          </a>
+        </div>
+      </div>
 
+      <h1 style="color: #ffa400" class="text-center font-weight-bold my-5">
+        Authentication Partner
+      </h1>
+      <div class="row pb-5 d-flex justify-content-center">
+        <div class="col-lg-4 my-5 sponsor-col text-center col-md-4 col-sm-12">
+          <a class="d-block" target="_blank" href="https://sawolabs.com/">
+            <img
+              src="./assets//sponsors/SAWO_Labs.png"
+              alt="Devfolio"
+              class="img-fluid"
+              style="height: 148px; width: 341px"
+            />
+          </a>
+        </div>
+      </div>
     </div>
     <!-- Sponsors Section ends -->
 
-
     <section class="footers bg-light pt-5 pb-3">
-        <div class="container mt-4 pt-5">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
-                    <div class="footers-logo">
-                        <img src="assets/logo.png" alt="Logo" style="width:120px;">
-                    </div>
-                    <div class="footers-info mt-3">
-                        <p>The Uplift is a global project managed and founded by <span><a style="color: #5A54FF"
-                                    href="./about.html#about-girlscript">The GirlScript Foundation.</a></span></p>
-                    </div>
-                    <div class="social-icons mt-5 mb-5">
-                        <a class="social-icon mr-4 p-2 pl-3 px-auto" href="https://m.facebook.com/upliftproject1"><i
-                                id="social-fb" class="fab fa-facebook-f "></i></a>
-                        <a class="social-icon mr-4 p-2 px-auto" href="https://twitter.com/uplift_project?lang=en"><i
-                                id="social-tw" class="fab fa-twitter "></i></a>
-                        <a class="social-icon mr-4 p-2 px-auto" href="https://www.instagram.com/upliftproject1/"><i
-                                id="social-gp" class="fab fa-instagram "></i></a>
-                        <a class="social-icon mr-4 p-2 px-auto"
-                            href="https://www.linkedin.com/company/upliftproject/"><i id="social-em"
-                                class="fab fa-linkedin-in "></i></a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
-                    <!-- <h5 class="footer-link-title"></h5>
+      <div class="container mt-4 pt-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+            <div class="footers-logo">
+              <img src="assets/logo.png" alt="Logo" style="width: 120px" />
+            </div>
+            <div class="footers-info mt-3">
+              <p>
+                The Uplift is a global project managed and founded by
+                <span
+                  ><a
+                    style="color: #5a54ff"
+                    href="./about.html#about-girlscript"
+                    >The GirlScript Foundation.</a
+                  ></span
+                >
+              </p>
+            </div>
+            <div class="social-icons mt-5 mb-5">
+              <a
+                class="social-icon mr-4 p-2 pl-3 px-auto"
+                href="https://m.facebook.com/upliftproject1"
+                ><i id="social-fb" class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="social-icon mr-4 p-2 px-auto"
+                href="https://twitter.com/uplift_project?lang=en"
+                ><i id="social-tw" class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="social-icon mr-4 p-2 px-auto"
+                href="https://www.instagram.com/upliftproject1/"
+                ><i id="social-gp" class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="social-icon mr-4 p-2 px-auto"
+                href="https://www.linkedin.com/company/upliftproject/"
+                ><i id="social-em" class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+            <!-- <h5 class="footer-link-title"></h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html#participant">Participant</a></li>
                         <li><a href="index.html#mentor">Mentor</a></li>
                     </ul> -->
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+            <h5 class="footer-link-title">Navigation</h5>
+            <ul class="list-unstyled">
+              <li><a href="#project-themes">Project Themes</a></li>
+              <li><a href="#prizes">Prizes</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
-                    <h5 class="footer-link-title">Navigation</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#project-themes">Project Themes</a></li>
-                        <li><a href="#prizes">Prizes</a></li>
-                        <li><a href="#timeline">Timeline</a></li>
-                        <li><a href="#sponsors">Sponsors</a></li>
-
-                        <!-- <li><a href="mailto:upliftproject@girlscript.tech">Contact us<br><span
+              <!-- <li><a href="mailto:upliftproject@girlscript.tech">Contact us<br><span
                                     style="color: rgb(245, 56, 56); word-wrap: break-word;">upliftproject@girlscript.tech</span></a>
                         </li> -->
-                    </ul>
-                </div>
+            </ul>
+          </div>
 
-                <!-- <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+          <!-- <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
                     <h5 class="footer-link-title">Sister Platforms</h5>
                     <ul class="list-unstyled">
                         <li>
@@ -775,29 +1035,30 @@
                         <li><a href="https://www.gsyay.com/">YAY! Celebrating Education </a></li>
                     </ul>
                 </div> -->
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
-                    <h5 class="footer-link-title">Parent Website</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">The Uplift</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
-                    <h5 class="footer-link-title">Contact us</h5>
-                    <a href="mailto:upliftproject@girlscript.tech" class="btn btn-primary mail-btn text-white">Mail us
-                        <i class="fas fa-envelope-open-text"></i></a>
-                </div>
-
-            </div>
-            <div class="row text-left">
-                <div class="col-md-12 pt-3">
-                    <p class="text-muted">©2021 The Uplift Project</p>
-                </div>
-            </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
+            <h5 class="footer-link-title">Parent Website</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">The Uplift</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+            <h5 class="footer-link-title">Contact us</h5>
+            <a
+              href="mailto:upliftproject@girlscript.tech"
+              class="btn btn-primary mail-btn text-white"
+              >Mail us <i class="fas fa-envelope-open-text"></i
+            ></a>
+          </div>
         </div>
+        <div class="row text-left">
+          <div class="col-md-12 pt-3">
+            <p class="text-muted">©2021 The Uplift Project</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="./js/hack.js"></script>
     <script src="./js/hack-faq.js"></script>
-</body>
-
+  </body>
 </html>
