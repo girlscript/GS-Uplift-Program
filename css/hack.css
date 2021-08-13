@@ -60,7 +60,7 @@ body {
   background: #5a54ff;
 }
 
-.register-btn:hover{
+.register-btn:hover {
   background: #423dd6;
 }
 
@@ -136,8 +136,19 @@ body {
   width: 75%;
 } */
 
+#hero h2 .hack-date {
+  color: #ffffff;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+}
 #hero h3 {
-  color: #fff;
+  color: #c4c4c4;
+  /* color: #fff; */
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 2rem;
@@ -245,6 +256,7 @@ body {
     margin-top: 3rem !important;
   }
   #hero h2 {
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
