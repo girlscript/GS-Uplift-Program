@@ -780,6 +780,10 @@ header p {
     width: max-content;
     height: max-content;
   }
+  .filecoin {
+    width: 288px;
+    height: 64px;
+  }
 }
 
 /* Footer ends */
